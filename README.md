@@ -1,110 +1,107 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+Use:
+Images, links, formatting for presentation
 
-Welcome USER_NAME,
+Needs:
+UX/UI section, links to wireframes, bugs and fixes, credits, deployment, testing (expectations, process, results, fixes)
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+	LAYOUT IN LOGICAL ORDER
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+Note: Booking form on web page goes to no email address, on ‘live website’ would go to Alans email
 
-## Gitpod Reminders
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+Motion Light Wedding Videographer Website
 
-`python3 -m http.server`
+A website advertising a wedding photographer, where visitors come to help them decide who they want to capture the moment of their ‘big day.’ This website is designed to be responsive across a range of devices and screen sizes and should be welcoming show good examples of the photographers work in order to gain new clients.
 
-A blue button should appear to click: _Make Public_,
+Multiple device preview picture
 
-Another blue button should appear to click: _Open Browser_.
+Link to page
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+Contents section
 
-A blue button should appear to click: _Make Public_,
+_____________________________
 
-Another blue button should appear to click: _Open Browser_.
+User experience
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+	User story
 
-To log into the Heroku toolbelt CLI:
+Due to the nature of the service users are unlikely to be returning to the website until they have reached a decision. The photographers work should be displayed in such a way that it encourages the user to look further, so after having a “shop around” will remember videographer when they are ready to make their final decision
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+_____________________________
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+Design
+	Colour scheme (why)
+	Fonts (why)
+	Media
 
-------
+Needs to look elegant and weddingy, people want something special for their big day so videographer should be advertised as such. Videographer has an existing logo so colour scheme should be in line with that.
 
-## Release History
+Video should play a big role in the design of website but not be too in your face or obtrusive and should remain modest. Still images should break up video content and have a warm, happy feel that also expresses how videographer can capture the moment
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+_____________________________
 
-**September 20 2023:** Update Python version to 3.9.17.
+Wireframe
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+	Mobile
+	Tablet
+	Desktop
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+_____________________________
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+Features/ Pages
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+	Header
+	Home
+	Gallery/preview vids
+	About videographer
+	Booking form
+	Contact page
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+_____________________________
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+Technologies
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+	Languages used
+	Librarys
+	Programs
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+_____________________________
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+Testing
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+	Expectations?
+	Browser compatibility
+	Lighthouse (performance testing)
+	Validators
+	Testing sources -	am I responsive
+				validation services
+	Site functionality
+	Bugs - known issues
+		Solved issues
+		Unsolved issues (hopefully not)
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+_____________________________
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+Deployment Instructions
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+_____________________________
 
-------
+Credits section
 
-## FAQ about the uptime script
+	Alan and his work
+	Previous exp.
+	Libraries
+	Tutorials - 	sites
+			videos
+	Media
+	Bootstrap
+	Icons
+	Fonts
+	Me
+	Friend/family helped with testing/feedback
 
-**Why have you added this script?**
+Tutorials:
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
+Image cropping - https://www.digitalocean.com/community/tutorials/css-cropping-images-object-fit
+	

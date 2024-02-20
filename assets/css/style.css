@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Allison&display=swap&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+/*-------------------------------------- general --------*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+/*-------------------------------------- header --------*/
+
+header {
+    height: 100px;
+    border-bottom: 0.5px solid #676869;
+    background-color: #fff;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+}
+
+.logo a {
+    text-decoration: none;
+    font-family: "Allison", cursive;
+    color: #676869;
+}
+
+.logo img {
+    position: absolute;
+    margin: 20px 30px;
+    height: 70px;
+}
+
+.navbar {
+    float: right;
+    margin: 30px 0;
+    padding: 10px;
+}
+
+.navbar-links a,
+li {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-size: 0.8rem;
+    display: inline;
+    list-style-type: none;
+    text-decoration: none;
+    padding: 10px;
+    color: #676869;
+}
+
+.navbar-links a:hover {
+    color: goldenrod;
+}
+
+.active span {
+    border-bottom: 1px solid goldenrod;
+}
+
+.separator {
+    border-left: 0.5px solid #676869;
+}
+
+/*-------------------------------------- hero --------*/
+
+.hero-img {
+    position: relative;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../images/rings.jpg");
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    overflow: hidden;
+}
+
+.hero-text {
+    position: absolute;
+    z-index: 1;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+}
+
+.hero-text h1,
+.hero-text p {
+    font-weight: 200;
+    letter-spacing: 3px;
+    color: #fff;
+}
+
+/*-------------------------------------- intro --------*/
+
+.short-intro {
+    margin-right: 75px;
+}
+
+.short-intro h1,
+.short-intro p {
+    font-weight: 200;
+    color: #676869;
+    font-family: "Poppins", sans-serif;
+}
+
+.short-intro p {
+    width: 33%;
+    float: inline-end;
+    margin: 50px 10px 40px 0;
+}
+
+.short-intro h1 {
+    float: left;
+    font-size: 8rem;
+}
+
+.short-intro img {
+    width: 50%;
+    position: absolute;
+    left: 0;
+    margin: 250px 100px;
+    object-fit: cover;
+    height: 250px
+}
