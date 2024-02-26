@@ -2,68 +2,147 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+        integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="assets/css/style.css" />
-    <script src="https://kit.fontawesome.com/1ea2710885.js" crossorigin="anonymous"></script>
-    <title>Magnolia Photography | North Wales Based Wedding Photographer</title>
+    <title>Magnolia Photography | North Wales based Wedding Photographer</title>
 </head>
 
 <body>
+
     <header>
         <div class="logo">
-            <a href="index.html"><img src="/assets/images/magno-logo.png" alt="magnolia photography logo" />
+            <a href="index.html"><img src="assets/images/magnolia-logo.png" alt="magnolia photography logo" />
+                <h1>Magnolia Photography</h1>
             </a>
         </div>
-        <nav class="navbar">
-            <ul class="navbar-links">
-                <li class="uppercase active">
-                    <span><a href="index.html">Home</a></span>
-                </li>
-                <li class="uppercase separator">
-                    <span><a href="gallery.html">Gallery</a></span>
-                </li>
-                <li class="uppercase separator">
-                    <span><a href="about.html">About Me</a></span>
-                </li>
-                <li class="uppercase separator">
-                    <span><a href="pricing.html">Pricing & Packages</a></span>
-                </li>
-                <li class="uppercase separator">
-                    <span><a href="contact.html">Contact</a></span>
-                </li>
-            </ul>
-        </nav>
-    </header>
-    <section class="hero">
-        <div class="hero-img">
-            <div class="hero-text">
-                <h1>Elegant | Professional | Discreet</h1>
-                <br>
-                <p>North Wales, UK and destination Wedding Photography.</p>
+
+        <div>
+            <div class="custom-nav" id="custom-nav">
+                <ul>
+                    <li>
+                        <a class="active" href="index.html"><span>Home</span></a>
+                    </li>
+                    <li>
+                        <a href="gallery.html"><span>Gallery</span></a>
+                    </li>
+                    <li>
+                        <a href="about.html"><span>About Me</span></a>
+                    </li>
+                    <li>
+                        <a href="contact.html"><span>Book/Contact</span></a>
+                    </li>
+                </ul>
             </div>
         </div>
-    </section>
-    <section>
-        <div class="short-intro"><img src="assets/images/beach.jpg" alt="couple on beach">
-            <h1>Capture The Day</h1><br>
-            <p>
-                Welcome to Magnolia Wedding Photography, your premier choice for capturing the timeless moments of your
-                special day. Nestled in the picturesque landscapes of North Wales, our team of skilled professionals is
-                dedicated to providing you with stunning imagery that beautifully encapsulates the essence of your love
-                story. Just as magnolias symbolize purity and dignity, we aim to imbue your wedding photographs with the
-                same grace and elegance. With a keen eye for detail and a commitment to excellence, let us preserve the
-                memories that you'll cherish for a lifetime.
-            </p>
+        <div class="burger" id="hamburger">
+            <button onclick="hideShow()"><i class="fa fa-bars"></i></button>
         </div>
-    </section>
+    </header>
+    <div class="no-gutters">
+        <section class="hero-img">
+            <div class="hero">
+                <h1>Magnolia Photography</h1>
+                <p>North Wales and UK Wedding Photographer</p>
+            </div>
+        </section>
+        <section class="main-about">
+            <div class="row">
+                <div class="col-lg-6 order-lg-1 col-md-6 order-md-1 col-sm-12 order-sm-2 col-12 order-2">
+                    <p>
+                        Welcome to Magnolia Wedding Photography, your
+                        premier choice for capturing the timeless moments of your special
+                        day. Nestled in the picturesque landscapes of North Wales, I am a
+                        skilled professional dedicated to providing you with stunning
+                        imagery that beautifully encapsulates the essence of your love
+                        story. Just as magnolias symbolize purity and dignity, I aim to
+                        imbue your wedding photographs with the same grace and elegance.
+                        With a keen eye for detail and a commitment to excellence, let me
+                        preserve the memories that you'll cherish for a lifetime.
+                    </p>
+                </div>
+                <div
+                    class="col-lg-6 order-lg-2 col-md-6 order-md-2 col-sm-12 order-sm-1 col-12 order-1 ml-auto mr-auto">
+                    <img src="assets/images/flowers.jpg" alt="bridesmaids with flowers" />
+                    <!--get better picture (landscape)-->
+                </div>
 
+            </div>
+        </section>
+        <section class="reviews">
+            <div class="row">
+                <div class="review-img col-lg-4 col-md-6 col-sm-12 col-12">
+                    <blockquote>
+                        <img src="assets/images/emma.jpg" alt="customer profile picture" />
+                        <p>
+                            "Magnolia Photography skillfully captures candid moments, crafting
+                            timeless narratives with personalized service and professionalism.
+                            They're not just photographers; they're dedicated storytellers,
+                            preserving the magic of love."
+                        </p>
+                        <h3>Emma Robinson</h3>
+                    </blockquote>
+                </div>
+                <div class="review-img col-lg-4 d-lg-block col-md-6 d-md-none col-sm-12 col-12">
+                    <blockquote>
+
+                        <img src="assets/images/mark.jpg" alt="customer profile picture" />
+
+                        <p>
+                            "Choosing Marc as our wedding photographer was one of the best
+                            decisions we made. His professionalism and attention to detail
+                            were outstanding. He effortlessly captured the raw emotions and
+                            intimate moments, creating timeless memories we'll cherish
+                            forever. Marc's talent behind the lens is truely re-marc-able."
+                        </p>
+                        <h3>Mark Fleming</h3>
+                    </blockquote>
+                </div>
+                <div class="review-img col-lg-4 col-md-6 col-sm-12 col-12">
+                    <blockquote>
+
+                        <img src="assets/images/juliet.JPG" alt="customer profile picture" />
+
+                        <p>
+                            "Marc was a total pro! He made our day so easy and fun. The pics
+                            he took are just perfect - real and full of love. Working with him
+                            was a breeze. So happy with everything!"
+                        </p>
+                        <h3>Juliet Wells</h3>
+                    </blockquote>
+                </div>
+            </div>
+    </div>
+    </section>
+    </div>
+    <div class="row">
+        <div class="book-now col-12">
+            <a href="contact.html" class="book-btn">Book Now!</a>
+        </div>
+    </div>
     <footer>
-        <div class="footer-content">
-            <div class="copywrite"></div>
-            <div class="social-links"></div>
+        <div class="copyright">
+            <p>Copyright 2024. Magnolia Photography</p>
+        </div>
+        <div class="social-links">
+            <a href=""><i class="fa fa-facebook"></i></a>
+            <a href=""><i class="fa fa-instagram"></i></a>
+            <a href=""><i class="fa fa-twitter"></i></a>
         </div>
     </footer>
+
+    <script src="assets/js/script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous">
+    </script>
 </body>
 
 </html>

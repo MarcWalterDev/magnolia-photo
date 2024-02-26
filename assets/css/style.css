@@ -1,50 +1,52 @@
-@import url("https://fonts.googleapis.com/css2?family=Allison&display=swap&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
-
-/*-------------------------------------- general --------*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Tangerine:wght@400;700&display=swap");
 
 * {
     margin: 0;
     padding: 0;
 }
 
-.uppercase {
-    text-transform: uppercase;
-}
+/* body {
+	max-width: 1440px;
+	margin-left: auto;
+	margin-right: auto;
+} */
 
-/*-------------------------------------- header --------*/
+/*------------------------- header -------------*/
 
 header {
-    height: 100px;
-    border-bottom: 0.5px solid #676869;
-    background-color: #fff;
-    width: 100%;
     position: fixed;
+    width: 100%;
+    max-width: 1440px;
+    height: 75px;
+    background-color: #fff;
+    border-bottom: 0.5px solid #676869;
     z-index: 100;
 }
 
-.logo a {
-    text-decoration: none;
-    font-family: "Allison", cursive;
-    color: #676869;
-}
-
 .logo img {
+    height: 50px;
+    margin: 10px 10px;
+}
+
+.logo h1 {
+    font-family: "Tangerine", cursive;
+    color: #676869;
     position: absolute;
-    margin: 20px 30px;
-    height: 70px;
+    top: 20px;
+    left: 30px;
 }
 
-.navbar {
-    float: right;
-    margin: 30px 0;
-    padding: 10px;
+.custom-nav {
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin: 25px 20px;
 }
 
-.navbar-links a,
-li {
+.custom-nav ul a,
+.custom-nav li {
     font-family: "Poppins", sans-serif;
     font-weight: 200;
-    font-size: 0.8rem;
     display: inline;
     list-style-type: none;
     text-decoration: none;
@@ -52,78 +54,275 @@ li {
     color: #676869;
 }
 
-.navbar-links a:hover {
-    color: goldenrod;
-}
-
 .active span {
     border-bottom: 1px solid goldenrod;
 }
 
-.separator {
-    border-left: 0.5px solid #676869;
+.custom-nav ul a:hover {
+    color: goldenrod;
+    transition: ease-in-out 0.2s;
 }
 
-/*-------------------------------------- hero --------*/
+.fa {
+    font-size: 1.5rem;
+    color: #676869;
+    border: 2px solid #d0d0d0;
+    padding: 3px 6px;
+    border-radius: 5px;
+}
 
+.burger {
+    display: none;
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin: 10px 20px;
+}
+
+.burger button {
+    background-color: transparent;
+    border-color: transparent;
+}
+
+/*------------------------- footer -------------*/
+
+footer {
+    height: 75px;
+    border-top: 0.5px solid #676869;
+    background-color: #6d807f;
+}
+
+.copyright {
+    float: left;
+    margin: 25px 0 20px 20px;
+    font-family: "Poppins", sans-serif;
+}
+
+.social-links {
+    float: right;
+    margin: 20px 20px 25px 0;
+}
+
+.social-links a {
+    padding: 10px;
+}
+
+.social-links .fa:hover {
+    color: goldenrod;
+    transition: ease-in-out 0.2s;
+}
+
+.social-links .fa {
+    border: none;
+    color: #000;
+}
+
+/*------------------------- index content -------------*/
+/*------ hero ----*/
 .hero-img {
-    position: relative;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../images/rings.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+        url("../images/rings.jpg");
+    background-position: center center;
+    background-size: cover;
     height: 100vh;
     width: 100%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-    overflow: hidden;
 }
 
-.hero-text {
+.hero {
     position: absolute;
-    z-index: 1;
-    top: 65%;
+    top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
-
-    font-family: "Poppins", sans-serif;
     text-align: center;
-}
-
-.hero-text h1,
-.hero-text p {
-    font-weight: 200;
-    letter-spacing: 3px;
     color: #fff;
-}
-
-/*-------------------------------------- intro --------*/
-
-.short-intro {
-    margin-right: 75px;
-}
-
-.short-intro h1,
-.short-intro p {
+    line-height: 35px;
     font-weight: 200;
-    color: #676869;
+}
+
+.hero h1 {
+    font-family: "Tangerine", cursive;
+    font-size: 3rem;
+    letter-spacing: 5px;
+}
+
+.hero p {
     font-family: "Poppins", sans-serif;
 }
 
-.short-intro p {
-    width: 33%;
-    float: inline-end;
-    margin: 50px 10px 40px 0;
+/*------ intro ----*/
+
+.main-about {
+    border-top: 0.5px solid #676869;
+    padding-top: 40px;
+    border-bottom: 0.5px solid #676869;
+    padding-bottom: 40px;
+    margin: 40px 0 20px 0;
 }
 
-.short-intro h1 {
-    float: left;
-    font-size: 8rem;
+.main-about img {
+    width: 80%;
+    border-radius: 10px;
+    margin: 0 auto;
+    display: block;
 }
 
-.short-intro img {
-    width: 50%;
-    position: absolute;
-    left: 0;
-    margin: 250px 100px;
+.main-about p {
+    font-family: "Poppins", sans-serif;
+    color: #676869;
+    letter-spacing: 2px;
+    width: 100%;
+    padding: 5%;
+}
+
+/*------ reviews ----*/
+
+.reviews {
+    margin-top: 50px;
+    padding: 10px;
+}
+
+.review-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     object-fit: cover;
-    height: 250px
+    width: 25%;
 }
+
+.review-img img {
+    float: right;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+blockquote {
+    width: 100%;
+    border: 1px solid #676869;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: #6f8d8c;
+    display: inline-block;
+}
+
+blockquote p {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    width: 70%;
+}
+
+blockquote h3 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    padding: 5px 0 10px 0;
+    margin-left: 50%;
+    float: left;
+}
+
+.book-btn {
+    text-decoration: none;
+    font-family: "Tangerine", cursive;
+    font-size: 3rem;
+    color: #676869;
+    letter-spacing: 2px;
+    border: 0.5px solid #676869;
+    border-radius: 25px;
+    padding: 4px 12px;
+}
+
+.book-btn:hover {
+    background-color: #6d807f;
+    color: goldenrod;
+    transition: ease-in-out 0.2s;
+}
+
+.book-now {
+    margin: 20px;
+}
+
+/*------------------------- media queries -------------*/
+
+@media (max-width: 767.999px) {
+    .custom-nav {
+        display: none;
+        position: relative;
+        width: 75%;
+        float: right;
+        background-color: #fff;
+        height: 100vh;
+        margin: 0;
+    }
+
+    .custom-nav ul a {
+        font-family: "Poppins", sans-serif;
+        font-weight: 200;
+        display: block;
+        list-style-type: none;
+        text-decoration: none;
+        padding: 7px;
+        color: #676869;
+    }
+
+    .burger {
+        display: block;
+    }
+
+    .logo img {
+        height: 40px;
+        margin: 5px 5px;
+    }
+
+    .logo h1 {
+        font-family: "Tangerine", cursive;
+        color: #676869;
+        font-size: 1.5rem;
+        position: absolute;
+        top: 15px;
+        left: 20px;
+    }
+
+    header {
+        height: 54px;
+    }
+
+    .main-about p {
+        font-size: 0.75rem;
+    }
+}
+
+@media (max-width: 374.999) {
+    .custom-nav {
+        width: 75%;
+    }
+}
+
+@media (min-width: 375px) and (max-width: 575.999px) {
+    .custom-nav {
+        width: 50%;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.999px) {
+    .custom-nav {
+        width: 35%;
+    }
+}
+
+@media (min-width: 1440px) {
+    body {
+        max-width: 1440px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+/*------------------------- borrowed code -------------*/
+
+/*
+book button centering
+hero transform translate centering
+linear gradient
+*/
