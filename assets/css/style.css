@@ -277,6 +277,10 @@ blockquote h3 {
     text-align: center;
 }
 
+.album a {
+    text-decoration: none;
+}
+
 /*------------------------- media queries -------------*/
 
 @media (max-width: 767.999px) {
