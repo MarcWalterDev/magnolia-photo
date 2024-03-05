@@ -1,418 +1,514 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Tangerine:wght@400;700&display=swap");
 
-* {
-    margin: 0;
-    padding: 0;
+*,
+* a {
+	margin: 0;
+	padding: 0;
+	font-family: "Poppins", sans-serif;
+	font-weight: 200;
+	color: #676869;
 }
 
 #page-container {
-    position: relative;
-    min-height: 100vh;
+	position: relative;
+	min-height: 100vh;
 }
 
 #content-wrapper {
-    padding-bottom: 75px;
+	padding-bottom: 75px;
+}
+
+/*------------------------- book button -------------*/
+
+.book-now-btn {
+	display: flex;
+	justify-content: center;
+	text-align: center;
+}
+
+.book-now-btn a {
+	text-decoration: none;
+	font-size: 1.5rem;
+	height: auto;
+	width: 200px;
+	margin: 10px;
+	border: 1px solid #6d807f;
+	border-radius: 5px;
+}
+
+.book-now-btn a:hover {
+	color: goldenrod;
+	transition: 0.5s ease-in-out;
+	height: auto;
+	width: 200px;
+	margin: 10px auto;
+	border: 1px solid goldenrod;
+	border-radius: 5px;
+}
+
+.hero-text .book-now-btn a {
+	color: #fff;
+	border: 1px solid #fff;
+	font-size: 1rem;
+}
+
+.hero-text .book-now-btn a:hover {
+	color: goldenrod;
+	border: 1px solid goldenrod;
+	background-color: rgba(0, 0, 0, 0.2);
+}
+
+.book-btn-container {
+	margin: 20px 0;
+	padding-bottom: 30px;
+	border-bottom: 0.5px solid #6d807f;
 }
 
 /*------------------------- header -------------*/
 
 header {
-    position: fixed;
-    width: 100%;
-    max-width: 1440px;
-    height: 75px;
-    background-color: #fff;
-    border-bottom: 0.5px solid #676869;
-    z-index: 100;
+	position: fixed;
+	width: 100%;
+	max-width: 1920px;
+	height: 75px;
+	background-color: #fff;
+	border-bottom: 0.5px solid #676869;
+	z-index: 100;
 }
 
 .logo img {
-    height: 50px;
-    margin: 10px 10px;
+	height: 50px;
+	margin: 10px 10px;
 }
 
 .logo h1 {
-    font-family: "Tangerine", cursive;
-    color: #676869;
-    position: absolute;
-    top: 20px;
-    left: 30px;
+	font-family: "Tangerine", cursive;
+	font-size: 2rem;
+	position: absolute;
+	top: 20px;
+	left: 30px;
 }
 
 .custom-nav {
-    position: absolute;
-    right: 0;
-    top: 0;
-    margin: 25px 20px;
+	position: absolute;
+	right: 0;
+	top: 0;
+	margin: 25px 20px;
 }
 
 .custom-nav ul a,
 .custom-nav li {
-    font-family: "Poppins", sans-serif;
-    font-weight: 200;
-    display: inline;
-    list-style-type: none;
-    text-decoration: none;
-    padding: 10px;
-    color: #676869;
+	display: inline;
+	list-style-type: none;
+	text-decoration: none;
+	padding: 10px;
 }
 
 .active span {
-    border-bottom: 1px solid goldenrod;
+	border-bottom: 1px solid goldenrod;
 }
 
-.custom-nav ul a:hover {
-    color: goldenrod;
-    transition: ease-in-out 0.2s;
+.custom-nav ul li a:hover {
+	color: goldenrod;
+	transition: ease-in-out 0.2s;
 }
 
 .fa {
-    font-size: 1.5rem;
-    color: #676869;
-    border: 2px solid #d0d0d0;
-    padding: 3px 6px;
-    border-radius: 5px;
+	font-size: 1.5rem;
+	border: 2px solid #d0d0d0;
+	padding: 3px 6px;
+	border-radius: 5px;
 }
 
 .burger {
-    display: none;
-    position: absolute;
-    right: 0;
-    top: 0;
-    margin: 10px 20px;
+	display: none;
+	position: absolute;
+	right: 0;
+	top: 0;
+	margin: 10px 20px;
 }
 
 .burger button {
-    background-color: transparent;
-    border-color: transparent;
+	background-color: transparent;
+	border-color: transparent;
 }
 
 /*------------------------- footer -------------*/
 
 footer {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: 75px;
-    border-top: 0.5px solid #676869;
-    background-color: #6d807f;
+	position: absolute;
+	display: flex;
+	justify-content: space-between;
+	bottom: 0;
+	width: 100%;
+	height: 75px;
+	border-top: 0.5px solid #676869;
+	background-color: #6d807f;
 }
 
 .copyright {
-    float: left;
-    margin: 25px 0 20px 20px;
-    font-family: "Poppins", sans-serif;
+	margin: 25px 0 20px 20px;
+}
+
+.copyright p {
+	color: #000;
 }
 
 .social-links {
-    float: right;
-    margin: 20px 20px 25px 0;
+	margin: 20px 20px 25px 0;
 }
 
 .social-links a {
-    padding: 10px;
-}
-
-.social-links .fa:hover {
-    color: goldenrod;
-    transition: ease-in-out 0.2s;
+	padding: 10px;
 }
 
 .social-links .fa {
-    border: none;
-    color: #000;
+	border: none;
+	color: #000;
 }
 
+.social-links .fa:hover {
+	color: goldenrod;
+	transition: ease-in-out 0.2s;
+}
 /*------------------------- index content -------------*/
 /*------ hero ----*/
+
 .hero-img {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-        url("../images/rings.jpg");
-    background-position: center center;
-    background-size: cover;
-    height: 100vh;
-    width: 100%;
+	position: relative;
+	background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+		url(../images/rings.jpg);
+	height: 100vh;
+	width: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
 }
 
-.hero {
-    position: absolute;
-    top: 60%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    color: #fff;
-    line-height: 35px;
-    font-weight: 200;
+.hero-text {
+	position: absolute;
+	top: 65%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+	letter-spacing: 3px;
 }
 
-.hero h1 {
-    font-family: "Tangerine", cursive;
-    font-size: 3rem;
-    letter-spacing: 5px;
+.hero-text h2 {
+	font-family: "Tangerine", cursive;
+	font-size: 4rem;
+	color: #fff;
 }
 
-.hero p {
-    font-family: "Poppins", sans-serif;
+.hero-text p {
+	font-size: 1rem;
+	color: #fff;
 }
 
 /*------ intro ----*/
 
 .main-about {
-    border-top: 0.5px solid #676869;
-    padding-top: 40px;
-    border-bottom: 0.5px solid #676869;
-    padding-bottom: 40px;
-    margin: 40px 0 20px 0;
+	display: flex;
+	align-items: center;
+	border-top: 0.5px solid #6d807f;
+	border-bottom: 0.5px solid #6d807f;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	margin: 40px auto;
+	max-width: 90%;
 }
 
 .main-about img {
-    width: 80%;
-    border-radius: 10px;
-    margin: 0 auto;
-    display: block;
+	width: 80%;
+	border-radius: 10px;
+	margin: 0 auto;
+	display: block;
+}
+
+.main-about-text h1 {
+	font-family: "tangerine", cursive;
+	font-size: 3rem;
 }
 
 .main-about p {
-    font-family: "Poppins", sans-serif;
-    color: #676869;
-    letter-spacing: 2px;
-    width: 100%;
-    padding: 5%;
+	letter-spacing: 2px;
+	width: 100%;
+	padding: 5%;
 }
 
 /*------ reviews ----*/
 
 .reviews {
-    margin-top: 50px;
-    padding: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	margin: 0 20px;
 }
 
-.review-img {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    object-fit: cover;
-    width: 25%;
+.reviews blockquote {
+	max-width: 33%;
+	height: fit-content;
+	background-color: #6d807f;
+	padding: 30px;
+	border-radius: 10px;
+	margin: 10px 10px;
 }
 
-.review-img img {
-    float: right;
-    height: 100px;
-    width: 100px;
-    border-radius: 50%;
-    object-fit: cover;
+.reviews img {
+	height: 75px;
+	width: 75px;
+	border-radius: 50%;
+	float: right;
+	object-fit: cover;
 }
 
-blockquote {
-    width: 100%;
-    border: 1px solid #676869;
-    padding: 10px;
-    margin: 10px;
-    border-radius: 10px;
-    background-color: #6f8d8c;
-    display: inline-block;
+.reviews h3,
+.reviews p {
+	color: black;
 }
 
-blockquote p {
-    font-family: "Poppins", sans-serif;
-    font-weight: 300;
-    width: 70%;
+.reviews h3 {
+	font-size: 1rem;
+	margin-left: 60%;
+	font-weight: 300;
 }
 
-blockquote h3 {
-    font-family: "Poppins", sans-serif;
-    font-weight: 400;
-    font-size: 1rem;
-    padding: 5px 0 10px 0;
-    margin-left: 50%;
-    float: left;
+.review-sec h1 {
+	font-family: "tangerine", cursive;
+	font-size: 3rem;
+	margin-left: 30px;
 }
 
-.book-btn {
-    text-decoration: none;
-    font-family: "Tangerine", cursive;
-    font-size: 3rem;
-    color: #676869;
-    letter-spacing: 2px;
-    border: 0.5px solid #676869;
-    border-radius: 25px;
-    padding: 4px 12px;
+/*------ map ----*/
+
+.map-container h1 {
+	font-family: "Tangerine", cursive;
+	font-size: 3rem;
+	padding-bottom: 10px;
 }
 
-.book-btn:hover {
-    background-color: #6d807f;
-    color: goldenrod;
-    transition: ease-in-out 0.2s;
+.map-container {
+	margin: 20px auto;
+	padding: 10px 30px;
 }
 
-.book-now {
-    margin: 20px;
+.map {
+	width: 100%;
 }
 
 /*------------------------- gallery -------------*/
 
 .gallery-albums h2 {
-    font-family: "Tangerine", cursive;
-    font-size: 6rem;
-    color: #676869;
-    text-align: center;
+	font-family: "Tangerine", cursive;
+	font-size: 6rem;
+	text-align: center;
 }
 
 .gallery-albums {
-    position: relative;
-    padding-top: 100px;
-    margin: 0 10px;
+	position: relative;
+	padding-top: 100px;
+	margin: 0 10px;
 }
 
-
 .album {
-    padding: 20px;
+	padding: 20px;
 }
 
 .album img {
-    width: 100%;
-    height: 400px;
-    object-fit: cover;
+	width: 100%;
+	height: 400px;
+	object-fit: cover;
 }
 
 .album h4 {
-    font-family: "Poppins", sans-serif;
-    font-weight: 200;
-    font-size: 1rem;
-    color: #676869;
-    margin-top: 10px;
-    text-align: center;
+	font-size: 1rem;
+	margin-top: 10px;
+	text-align: center;
 }
 
 .album a {
-    text-decoration: none;
+	text-decoration: none;
 }
 
 /*------ album page ----*/
 
 .gallery-album-page {
-    padding-top: 100px;
-    margin-bottom: 20px;
+	padding-top: 100px;
+	margin-bottom: 20px;
 }
 
 .gallery-album-page h4,
 .gallery-album-page p {
-    color: #676869;
-    text-align: center;
+	text-align: center;
 }
 
 .gallery-album-page h4 {
-    font-family: "Tangerine", cursive;
-    font-size: 6rem;
-    margin-top: 10px;
+	font-family: "Tangerine", cursive;
+	font-size: 6rem;
+	margin-top: 10px;
 }
 
 .gallery-album-page p {
-    font-family: "Poppins", sans-serif;
-    font-weight: 200;
-    font-size: 1rem;
+	font-size: 1rem;
 }
 
 .gallery-album-page p a {
-    text-decoration: none;
-    color: #676869;
+	text-decoration: none;
 }
 
 .gallery-album-page img {
-    height: 300px;
-    width: 80%;
-    object-fit: cover;
-    padding: 20px 0;
+	height: 300px;
+	width: 80%;
+	object-fit: cover;
+	padding: 20px 0;
 }
 
 .gallery-pics {
-    margin: 0 30px;
-    padding: 0 10%;
+	margin: 0 30px;
+	padding: 0 10%;
 }
 
 /*------------------------- media queries -------------*/
 
 @media (max-width: 767.999px) {
-    .custom-nav {
-        display: none;
-        position: relative;
-        width: 75%;
-        float: right;
-        background-color: #fff;
-        height: 100vh;
-        margin: 0;
-    }
+	.custom-nav {
+		display: none;
+		position: relative;
+		width: 75%;
+		float: right;
+		background-color: #fff;
+		height: 100vh;
+		margin: 0;
+	}
 
-    .custom-nav ul a {
-        font-family: "Poppins", sans-serif;
-        font-weight: 200;
-        display: block;
-        list-style-type: none;
-        text-decoration: none;
-        padding: 7px;
-        color: #676869;
-    }
+	.custom-nav ul a {
+		display: block;
+		list-style-type: none;
+		text-decoration: none;
+		padding: 7px;
+		transition: 0.5s ease-in-out;
+	}
 
-    .burger {
-        display: block;
-    }
+	.burger {
+		display: block;
+	}
 
-    .logo img {
-        height: 40px;
-        margin: 5px 5px;
-    }
+	.logo img {
+		height: 40px;
+		margin: 5px 5px;
+	}
 
-    .logo h1 {
-        font-family: "Tangerine", cursive;
-        color: #676869;
-        font-size: 1.5rem;
-        position: absolute;
-        top: 15px;
-        left: 20px;
-    }
+	.logo h1 {
+		font-family: "Tangerine", cursive;
+		font-size: 1.5rem;
+		position: absolute;
+		top: 15px;
+		left: 20px;
+	}
 
-    header {
-        height: 54px;
-    }
+	header {
+		height: 54px;
+	}
 
-    .main-about p {
-        font-size: 0.75rem;
-    }
+	.hero-text h2 {
+		font-size: 3rem;
+	}
 
-    .gallery-album-page h4 {
-        font-size: 4rem;
-    }
+	.hero-text p {
+		font-size: 0.75rem;
+	}
 
-    .gallery-pics {
-        margin: 0 15px;
-        padding: 0 5%;
-    }
+	.main-about {
+		flex-direction: column;
+	}
+
+	.main-about-text {
+		font-size: 0.75rem;
+		order: 1;
+	}
+
+	.reviews {
+		flex-direction: column;
+	}
+
+	.reviews h3,
+	.reviews p {
+		font-size: small;
+	}
+
+	.reviews blockquote {
+		max-width: 80%;
+		height: fit-content;
+	}
+
+	.copyright p,
+	.social-links fa {
+		font-size: small;
+	}
+
+	.gallery-album-page h4 {
+		font-size: 4rem;
+	}
+
+	.gallery-pics {
+		margin: 0 15px;
+		padding: 0 5%;
+	}
+
+	.map {
+		height: 300px;
+	}
 }
 
-@media (max-width: 374.999) {
-    .custom-nav {
-        width: 75%;
-    }
+@media (max-width: 575.999px) {
+	footer {
+		height: 100px;
+		flex-direction: column;
+		align-items: center;
+		justify-content: space-around;
+	}
+
+	.copyright {
+		margin: 0;
+	}
+
+	.social-links {
+		margin: 0;
+	}
+
+	.social-links a {
+		padding: 0;
+	}
+}
+
+@media (max-width: 374.999px) {
+	.custom-nav {
+		width: 75%;
+	}
+
+	.review-hide {
+		display: none;
+	}
 }
 
 @media (min-width: 375px) and (max-width: 575.999px) {
-    .custom-nav {
-        width: 50%;
-    }
+	.custom-nav {
+		width: 50%;
+	}
 }
 
 @media (min-width: 576px) and (max-width: 767.999px) {
-    .custom-nav {
-        width: 35%;
-    }
+	.custom-nav {
+		width: 35%;
+	}
 }
 
-@media (min-width: 1440px) {
-    body {
-        max-width: 1440px;
-        margin-left: auto;
-        margin-right: auto;
-    }
+@media (min-width: 1920px) {
+	body {
+		max-width: 1920px;
+		margin-left: auto;
+		margin-right: auto;
+	}
 }
 
 /*------------------------- borrowed code -------------*/
