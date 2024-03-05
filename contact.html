@@ -41,7 +41,9 @@
 									<a href="about.html"><span>About Me</span></a>
 								</li>
 								<li>
-									<a class="active" href="contact.html"><span>Book/Contact</span></a>
+									<a class="active" href="contact.html"
+										><span>Book/Contact</span></a
+									>
 								</li>
 							</ul>
 						</div>
@@ -50,28 +52,84 @@
 						<button onclick="hideShow()"><i class="fa fa-bars"></i></button>
 					</div>
 				</header>
-                <form method="POST" action="">
-                    <div>
-                    <label for="name">Your name*</label>
-                    <input type="text" id="name" name="name" required>
-                    </div>
-                    <div>
-                    <label for="email">Your email address*</label>
-                    <input type="email" id="email" name="email" required>
-                    </div>
-                    <div>
-                    <label for="phone-number">Your telephone number</label>
-                    <input type="number" id="phone-number" name="phone-number">
-                    </div>
-                    <div>
-                    <label for="date"></label>
-                    <input type="text" id="date" name="date">
-                    </div>
-                    <div>
-                    <label for=""></label>
-                    <input type="text">
-                    </div>
-                </form>
+				<div class="contact-flex-container">
+					<div class="form-container">
+						<h1>Save the date</h1>
+						<br />
+						<form method="GET" action="mailto:marcwalter0@gmail.com">
+							<div>
+								<label for="name">Your name*</label>
+							</div>
+							<div>
+								<input type="text" id="name" name="name" required />
+							</div>
+							<br />
+							<div>
+								<label for="email">Your email address*</label>
+							</div>
+							<div>
+								<input type="email" id="email" name="email" required />
+							</div>
+							<br />
+							<div>
+								<label for="phone-number">Your telephone number*</label>
+							</div>
+							<div>
+								<input
+									type="tel"
+									id="phone-number"
+									name="phone-number"
+									required
+								/>
+							</div>
+							<br />
+							<div>
+								<label for="date">Date of Wedding</label>
+							</div>
+							<div>
+								<input type="date" id="date" name="date" />
+							</div>
+							<br />
+							<div>
+								<label for="venue">Venue</label>
+							</div>
+							<div>
+								<input type="text" id="venue" name="venue" />
+							</div>
+							<br />
+							<div>
+								<label for="message">Send a message:</label>
+							</div>
+							<div>
+								<textarea
+									id="message"
+									placeholder=" Type your message"
+								></textarea>
+							</div>
+							<br />
+							<div>
+								<input class="form-btn" type="submit" />
+								<input class="form-btn" type="reset" />
+							</div>
+						</form>
+					</div>
+					<div class="contact-details">
+						<p>
+							For more information on pricing and to see if I'm available on
+							your date please send a message using the contact form.
+						</p>
+						<br />
+						<p>Alternatively you can contact me on:</p>
+						<br />
+						<i class="fa fa-envelope" aria-hidden="true"></i>
+						<a href="mailto:marc@magnoliaweddings.com"
+							>marc@magnoliaweddings.com</a
+						>
+						<br />
+						<i class="fa fa-phone" aria-hidden="true"></i>
+						<a href="tel:07123456789">07123456789</a>
+					</div>
+				</div>
 			</div>
 			<footer>
 				<div class="copyright">

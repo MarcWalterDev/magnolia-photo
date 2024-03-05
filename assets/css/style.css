@@ -115,7 +115,6 @@ header {
 
 .fa {
 	font-size: 1.5rem;
-	border: 2px solid #d0d0d0;
 	padding: 3px 6px;
 	border-radius: 5px;
 }
@@ -370,7 +369,69 @@ footer {
 
 /*------------------------- contact -------------*/
 
+.contact-flex-container {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	padding: 0 10%;
+}
 
+.form-container {
+	position: relative;
+	padding-top: 100px;
+	margin-bottom: 30px;
+	line-height: 25px;
+}
+
+.form-container h1 {
+	font-family: "Tangerine", cursive;
+	font-size: 3rem;
+}
+
+.form-container input {
+	width: 200px;
+}
+
+.form-container textarea {
+	height: 150px;
+	width: 400px;
+}
+
+.contact-details {
+	text-align: center;
+	line-height: 30px;
+}
+
+.contact-details a {
+	text-decoration: none;
+	font-size: 1.25rem;
+	line-height: 40px;
+}
+
+.contact-details a:hover {
+	color: goldenrod;
+	transition: 0.2s ease-in-out;
+}
+
+.contact-details i {
+	border: none;
+}
+
+.form-container .form-btn {
+	font-size: 1rem;
+	height: auto;
+	width: 150px;
+	border: 1px solid #6d807f;
+	background-color: transparent;
+	border-radius: 5px;
+}
+
+.form-btn:hover {
+	color: goldenrod;
+	transition: 0.2s ease-in-out;
+	border: 1px solid goldenrod;
+	border-radius: 5px;
+}
 
 /*------------------------- media queries -------------*/
 
