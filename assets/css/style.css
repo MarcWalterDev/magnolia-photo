@@ -34,11 +34,12 @@
 	margin: 10px;
 	border: 1px solid #6d807f;
 	border-radius: 5px;
+	transition: all 0.5s ease-in-out;
 }
 
 .book-now-btn a:hover {
 	color: goldenrod;
-	transition: 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
 	height: auto;
 	width: 200px;
 	margin: 10px auto;
@@ -96,21 +97,29 @@ header {
 	margin: 25px 20px;
 }
 
-.custom-nav ul a,
 .custom-nav li {
 	display: inline;
 	list-style-type: none;
-	text-decoration: none;
 	padding: 10px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+
+.custom-nav ul a {
+	text-decoration: none;
 }
 
 .active span {
 	border-bottom: 1px solid goldenrod;
 }
 
-.custom-nav ul li a:hover {
+.custom-nav ul li a span:hover {
 	color: goldenrod;
-	transition: ease-in-out 0.2s;
+	transition: all ease-in-out 0.3s;
+}
+
+.custom-nav ul li a span {
+	transition: all ease-in-out 0.3s;
 }
 
 .fa {
@@ -168,7 +177,7 @@ footer {
 
 .social-links .fa:hover {
 	color: goldenrod;
-	transition: ease-in-out 0.2s;
+	transition: all ease-in-out 0.2s;
 }
 /*------------------------- index content -------------*/
 /*------ hero ----*/
@@ -358,7 +367,7 @@ footer {
 
 .gallery-album-page p a:hover {
 	color: goldenrod;
-	transition: 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
 }
 
 .gallery-album-page img {
@@ -416,7 +425,7 @@ footer {
 
 .contact-details a:hover {
 	color: goldenrod;
-	transition: 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
 }
 
 .form-container .form-btn {
@@ -427,11 +436,12 @@ footer {
 	background-color: transparent;
 	border-radius: 5px;
 	margin-bottom: 10px;
+	transition: 0.2s ease-in-out;
 }
 
 .form-btn:hover {
 	color: goldenrod;
-	transition: 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
 	border: 1px solid goldenrod;
 	border-radius: 5px;
 }
