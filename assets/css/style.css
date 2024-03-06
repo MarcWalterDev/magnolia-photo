@@ -555,6 +555,10 @@ footer {
 		display: block;
 	}
 
+	#custom-nav.active-nav {
+		right: 0;
+	}
+
 	.logo img {
 		height: 40px;
 		margin: 5px 5px;
