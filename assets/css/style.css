@@ -173,6 +173,7 @@ footer {
 .social-links .fa {
 	border: none;
 	color: #000;
+	transition: all ease-in-out 0.2s;
 }
 
 .social-links .fa:hover {
