@@ -95,6 +95,7 @@ header {
 	right: 0;
 	top: 0;
 	margin: 25px 20px;
+	/* transition: all 1s ease-in-out; */
 }
 
 .custom-nav li {
@@ -532,13 +533,14 @@ footer {
 
 @media (max-width: 767.999px) {
 	.custom-nav {
-		display: none;
 		position: relative;
-		width: 75%;
+		width: 300px;
+		right: -300px;
 		float: right;
 		background-color: #fff;
 		height: 100vh;
 		margin: 0;
+		transition: all 1s ease-in-out;
 	}
 
 	.custom-nav ul a {
@@ -697,10 +699,6 @@ footer {
 }
 
 @media (max-width: 374.999px) {
-	.custom-nav {
-		width: 75%;
-	}
-
 	.review-hide {
 		display: none;
 	}
@@ -727,18 +725,6 @@ footer {
 	.error-btn-container {
 		display: flex;
 		flex-direction: column;
-	}
-}
-
-@media (min-width: 375px) and (max-width: 575.999px) {
-	.custom-nav {
-		width: 50%;
-	}
-}
-
-@media (min-width: 576px) and (max-width: 767.999px) {
-	.custom-nav {
-		width: 35%;
 	}
 }
 
