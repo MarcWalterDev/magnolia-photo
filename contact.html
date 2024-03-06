@@ -56,7 +56,12 @@
 					<div class="form-container">
 						<h1>Save the date</h1>
 						<br />
-						<form method="GET" action="mailto:marcwalter0@gmail.com">
+						<form method="POST" action="https://api.web3forms.com/submit">
+							<input
+								type="hidden"
+								name="access_key"
+								value="f744a65b-1558-4fa3-a307-c5c84ab31ec3"
+							/>
 							<div>
 								<label for="name">Your name*</label>
 							</div>
@@ -102,8 +107,9 @@
 							</div>
 							<div>
 								<textarea
+									name="message"
 									id="message"
-									placeholder=" Type your message"
+									placeholder=" Type your message here"
 								></textarea>
 							</div>
 							<br />
@@ -114,6 +120,12 @@
 						</form>
 					</div>
 					<div class="contact-details">
+						<p>
+							I have packages available to suit almost any budget. Just tell me
+							what you budget is and I will tell you what packages are
+							available.
+						</p>
+						<br />
 						<p>
 							For more information on pricing and to see if I'm available on
 							your date please send a message using the contact form.
