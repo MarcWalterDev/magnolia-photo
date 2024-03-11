@@ -411,6 +411,16 @@ footer {
 
 .form-container input {
 	width: 200px;
+	border: 0.9px solid #000;
+}
+
+::placeholder {
+	color: #aaaaaa;
+	opacity: 1;
+}
+
+::-ms-input-placeholder {
+	color: #aaaaaa;
 }
 
 .form-container textarea {

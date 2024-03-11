@@ -6,56 +6,93 @@ UX/UI section, links to wireframes, bugs and fixes, credits, deployment, testing
 
 	LAYOUT IN LOGICAL ORDER
 
-Note: Booking form on web page goes to no email address, on ‘live website’ would go to Alans email
 
 
-Motion Light Wedding Videographer Website
+# Magnolia Photography - Portfolio Project
 
-A website advertising a wedding photographer, where visitors come to help them decide who they want to capture the moment of their ‘big day.’ This website is designed to be responsive across a range of devices and screen sizes and should be welcoming show good examples of the photographers work in order to gain new clients.
+A website advertising a wedding photographer, where visitors come to help them decide who they want to capture the moment of their big day. This website is designed to be responsive across a range of devices and screen sizes and should be welcoming show good examples of the photographers work in order to gain new clients.
 
-Multiple device preview picture
+Please not this is not a real photographer but a project created for [The Code Institue](https://codeinstitute.net/) as part of their online course.
 
-Link to page
+![multi device preview](assets/readme/multiscreen-pic.png)
+
+The live site can be viewed on [here](https://) on github pages
 
 Contents section
 
 _____________________________
 
-User experience
+## User experience
 
-	User story
+### User story
 
-Due to the nature of the service users are unlikely to be returning to the website until they have reached a decision. The photographers work should be displayed in such a way that it encourages the user to look further, so after having a “shop around” will remember videographer when they are ready to make their final decision
+As a first time user I want to:
+
+* See what service is on offer.
+* Navigate easily through the website.
+* See examples of the photographers work.
+* See if the photographer is right for me.
+* Contact the photographer.
+
+As a returning user I want to:
+
+* Book or contact the photographer.
+
+Due to the nature of the service visitors will unlikely return multiple times other than to book the service or enquire.
 
 _____________________________
 
-Design
-	Colour scheme (why)
-	Fonts (why)
-	Media
+## Design
 
-Needs to look elegant and weddingy, people want something special for their big day so videographer should be advertised as such. Videographer has an existing logo so colour scheme should be in line with that.
+### Colours
 
-Video should play a big role in the design of website but not be too in your face or obtrusive and should remain modest. Still images should break up video content and have a warm, happy feel that also expresses how videographer can capture the moment
+I wanted to keep a simple colour scheme to keep the photographs the center of attention, with the majority of the photographs being on the gallery and album pages I used the colour scheme throughout for consistency. I used white for the main colour due to its association with weddings, grey for the main font colour for a softer look, gold/yellow for hover effects as I felt it suited the wedding theme and the green for a splash of colour so it didn't look too plain.
 
-_____________________________
+![colour palette](assets/readme/colours.png)
 
-Wireframe
+### Typography
 
-	Mobile
-	Tablet
-	Desktop
+Fonts were taken from [Google Fonts](https://fonts.google.com/). I used [Poppins](https://fonts.google.com/specimen/Poppins?query=poppins) as the main font for its clean, modern look and [Tangerine](https://fonts.google.com/?query=tangerine) for headings to add some elegance with sans serif and cursive, respectively, for back up.
 
+### Media
+
+The photographs in the gallery and album pages were taken from [pexels.com](https://www.pexels.com/) a free stock photography site. The "reviewers" are friends and family and the photographer is a portarait of myself.
+
+### Wireframes
+
+The site was designed to be a multi page site which is responsive across all device types.
+I made a some design choices during the development process which deviate from the original designs.
+
+#### Index/home page
+
+![index page](assets/readme/index.png)
+
+#### Gallery and Album pages
+
+![gallery page](assets/readme/gallery.png)
+
+![album page](assets/readme/album.png)
+
+#### About Page
+
+![about me page](assets/readme/about.png)
+
+#### Contact/Booking page
+
+![booking page](assets/readme/contact.png)
+
+#### Pop out Side Navigation
+
+![side nav](assets/readme/sidenav.png)
 _____________________________
 
 Features/ Pages
 
 	Header
 	Home
-	Gallery/preview vids
-	About videographer
-	Booking form
-	Contact page
+	Gallery
+	About photographer
+	Booking form/contact page
 
 
 _____________________________
