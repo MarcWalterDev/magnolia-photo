@@ -138,55 +138,46 @@ _____________________________
 
 ## Technologies
 
-HTML - Used for the main structure of the web site
-CSS - Used for the layout and styling
-JavaScript - Used for the pop out side menu
-GitHub - Used to host the site
-Balsamiq - For the wireframes
-Fontawesome - For the icons used in the project
-Google Fonts - For the fonts
-Bootstrap - For the resposive layout of the gallery pages
-VS Code - Used for writing the code
-Chrome Dev Tools - For testing resposiveness
-W3C HTML and CSS validators - To make sure there were no error in the code
-Lighthouse - For testing performance
+* HTML - Used for the main structure of the web site
+* CSS - Used for the layout and styling
+* JavaScript - Used for the pop out side menu
+* [GitHub](https://github.com/) - Used to host the site
+* [Balsamiq](https://balsamiq.com/) - For the wireframe
+* [CDNJS.com](https://cdnjs.com/libraries/font-awesome) - For Fontawesome CDN link
+* [Fontawesome v4](https://fontawesome.com/v4/) - For the icons used in the project
+* [Google Fonts](https://fonts.google.com/) - For the fonts
+* [Bootstrap](https://getbootstrap.com/docs/4.5/getting-started/introduction/) - For the resposive layout of the gallery pages
+* [VS Code](https://code.visualstudio.com/) - Used for writing the code
+* Chrome Dev Tools - For testing resposiveness
+* W3C [HTML](https://validator.w3.org/) and [CSS](https://jigsaw.w3.org/css-validator/) validators - To make sure there were no error in the code
+* [Lighthouse](https://chromewebstore.google.com/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk?pli=1) - For testing performance
 
 _____________________________
 
-Testing
+## Testing
 
-	Expectations?
-	Browser compatibility
-	Lighthouse (performance testing)
-	Validators
-	Testing sources -	am I responsive
-				validation services
-	Site functionality
-	Bugs - known issues
-		Solved issues
-		Unsolved issues (hopefully not)
+Testing results can be found in [test.md](test.md)
 
 _____________________________
 
-Deployment Instructions
+## Deployment Instructions
 
 _____________________________
 
-Credits section
+## Credits
 
-	Alan and his work
-	Previous exp.
-	Libraries
-	Tutorials - 	sites
-			videos
-	Media
-	Bootstrap
-	Icons
-	Fonts
-	Me
-	Friend/family helped with testing/feedback
+* Friends and family who helped test.
+* Friends and family who let me use their pictures for the review profile photos (especially my sister Emma who disagreed with my choice of photo)
+* [pexels.com](https://www.pexels.com/) - For the wedding photographs.
+* [Learn Web](https://www.youtube.com/watch?v=muquF8McnrI) - for the circle profile picture tutorial.
+* [Codegrid](youtube.com/watch?v=rGAbT8ykGB0&t=2s) - For the slide out navigation tutorial.
+* [Free Code Camp](https://www.freecodecamp.org/news/how-to-keep-your-footer-where-it-belongs-59c6aa05c59c/) - For the footer turtorial.
+* [CSS tricks](https://css-tricks.com/) - Where I learnt more about 'flex'.
+* [chat GPT](https://chat.openai.com/) - Which wrote the 'about' content.
+* [w3schools](https://www.w3schools.com/howto/howto_css_center_button.asp) - for their centering tutorial
+* [stackoverflow](https://stackoverflow.com/questions/9182978/semi-transparent-color-layer-over-background-image) - for the semi-transparent overlay using linear gradient.
 
-Tutorials:
+_____________________________
 
-Image cropping - https://www.digitalocean.com/community/tutorials/css-cropping-images-object-fit
+## Comments
 	
