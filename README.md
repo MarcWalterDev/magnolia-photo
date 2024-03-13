@@ -115,23 +115,27 @@ A reveiws section demonstrates the experience of other clients to give the user 
 
 The map, if it were for a real company, would show the user where the business is located.
 
-#### Gallery/Album
+#### Footer
+
+There is a basic footer section consisant across all pages which contains copyright information and external links to social media sites. It might be worth noting that the links currently go to social media home pages, if it were for a real company the links would go to their social media pages.
+
+### Gallery/Album
 
 The gallery page is split into four album sub-pages, each showcasing a different event. Each album has nine photos and at the bottom is a button that takes the user back to the main gallery page.
 
-#### Contact
+### Contact
 
 The contact page is where the user can book the photographer or enquire about pricing and/or services. This consists of a form where the user inputs their name, contact details, the dates of their wedding, the venue of their wedding and has a text are box where they can send an optional message. This form is connected to an external API which send the details of the form to the photographer email address. There are also two buttons if the user wants to email the photographer which opens their email app and one for the phone number which when pressed opens a call prompt.
 
-#### Pop out Nav menu
+### Pop out Nav menu
 
 On smaller screens the horizontal menu in the header is replaced by a hamburger icon which, when pressed, opens the navigation via a pop out panel.
 
-#### 404
+### 404
 
 I created a 404 page to inform the user of any errors with their request, this consists of an error message and two buttons at the bottom, one which takes the user back to the home page and one which opens the users email app shoukld they wish to report the problem.
 
-#### Future Features
+### Future Features
 
 The photographs in the album page will open to give a full screen view of the photoraph with arrow buttons on either side so the user can scroll through the images. This will be shown on an overlay with album page dimmed in the background.
 _____________________________
@@ -180,4 +184,11 @@ _____________________________
 _____________________________
 
 ## Comments
-	
+
+I have learn a lot about organisation and design during this project. Some key take aways:
+* use ID more - This could have cleaned up my CSS a lot, using class names meant some lengthy targeting of elements. I will do some more research about when it is better to ID vs class.
+* README - I should have written the README as I went along, it was quite a daunting task after just making a few notes and doing the whole write up at the end.
+* Mobile first desgin - I originally started mobile first but decided to switch to desktop first design as I felt it made more sense but I think designing mobile first would greatly reduce the amount of media queries needed for different screen sizesand save a lot of time.
+* Organisation - Being more methodical would have saved a lot of going back and forth between pages.
+
+On the whole I have really enjoyed the process. Even though some of my methods caused some undue stress it has helped me learn what and what not to do in the future.
