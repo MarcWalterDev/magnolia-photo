@@ -67,7 +67,7 @@
 
 /*------------------------- header -------------*/
 
-header {
+#header {
 	position: fixed;
 	width: 100%;
 	max-width: 1920px;
@@ -386,6 +386,18 @@ footer {
 .gallery-pics {
 	margin: 0 30px;
 	padding: 0 10%;
+}
+
+#img-top {
+	object-position: top;
+}
+
+#img-bottom {
+	object-position: bottom;
+}
+
+#img-align-up {
+	object-position: 0 -83px;
 }
 
 /*------------------------- contact -------------*/
