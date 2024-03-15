@@ -180,6 +180,7 @@ _____________________________
 * [chat GPT](https://chat.openai.com/) - Which wrote the 'about' content.
 * [w3schools](https://www.w3schools.com/howto/howto_css_center_button.asp) - for their centering tutorial
 * [stackoverflow](https://stackoverflow.com/questions/9182978/semi-transparent-color-layer-over-background-image) - for the semi-transparent overlay using linear gradient.
+* [MDM](https://developer.mozilla.org/en-US/docs/Web/CSS/object-position) - for alignment of images in their div.
 
 _____________________________
 
