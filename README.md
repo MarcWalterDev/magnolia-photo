@@ -141,7 +141,7 @@ For samples of submitted for see [Form Screenshots](previews.md#form).\
 ### Pop out Nav menu:
 
 On smaller screens the horizontal menu in the header is replaced by a hamburger icon which, when pressed, opens the navigation via a pop out panel.\
-see [previews.md](previews.md#pop-out-side-navigation1)
+see [previews.md](previews.md#pop-out-side-navigation-1)
 
 ### 404:
 
