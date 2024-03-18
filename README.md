@@ -6,9 +6,35 @@ Please not this is not a real photographer but a project created for [The Code I
 
 ![multi device preview](assets/readme/multiscreen-pic.png)
 
-The live site can be viewed on [here](https://) on github pages
+The live site can be viewed on [here](https://marcwalterdev.github.io/magnolia-photo/) on github pages
 
-Contents
+## Contents
+
+* [User Experience](#user-experience)
+    1. [user story](#user-story)
+* [Design](#design)
+    1. [Colours](#colours)
+    2. [Typography](#typography)
+    3. [Media](#media)
+    4. [Wireframes](#wireframes)
+    5. [Responsive Design](#responsive-design)
+* [Features](#features)
+    1. [Header](#header)
+    2. [Hero](#hero)
+    3. [Welcome](#welcome)
+    4. [Reviews](#reviews)
+    5. [Map](#map)
+    6. [Footer](#footer)
+    7. [Gallery and Album](#galleryalbum)
+    8. [Contact](#contact)
+    9. [Pop out side nav](#pop-out-nav-menu)
+    10. [404 Error](#404)
+    11. [Future Features](#future-features)
+* [Technologies](#technologies)
+* [Testing](#testing)
+* [Deployment](#deployment-instructions)
+* [Credits](#credits)
+* [Comments](#comments)
 
 _____________________________
 
@@ -58,7 +84,12 @@ I made a some design choices during the development process which deviate from t
 * I decided to use text instead of images on the contact form as I felt it needed some description.
 * I added some headings not included in the wireframes to further highlight the users location on the site.
 
-For images please see [previews.md](previews.md).
+For images please see [previews.md](previews.md#wireframes).
+
+### Responsive design
+
+The site is made to be responsive across different devices.\
+For a preview of small and medium screen sizes see [previews.md](previews.md#site-preview)
 _____________________________
 
 ## Features
@@ -67,43 +98,55 @@ _____________________________
 
 #### Header
 
-On the left side is a logo which when clicked takes the user to the home page. On the right on larger screens is the navigation menu, the current page is highlighted by a gold underline and text changes colour on hover. On smaller screens there is a hamburger button, when pressed, the navigation menu sides out from the right of the screen. The header section is fixed and will stay at the top of the page on scoll and is consistant across all pages of the web site.
+On the left side is a logo which when clicked takes the user to the home page. On the right on larger screens is the navigation menu, the current page is highlighted by a gold underline and text changes colour on hover. On smaller screens there is a hamburger button, when pressed, the navigation menu sides out from the right of the screen. The header section is fixed and will stay at the top of the page on scoll and is consistant across all pages of the web site.\
+![header](assets/readme/page-elements/header.jpeg)
 
 #### Hero
 
-The hero section consists of the "Magnolia Photography" heading with a subheading and a "book now" button with a colour changing hover effect over an image.
+The hero section consists of the "Magnolia Photography" heading with a subheading and a "book now" button with a colour changing hover effect over an image.\
+![hero](assets/readme/page-elements/hero.jpeg)
 
 #### Welcome
 
-there is a breif about section telling the user a little about the photographer and why he does what he does, to show the passion the photographer has for his work on the left and a picture on the right.  On smaller screens the image moves above the text.
+there is a breif about section telling the user a little about the photographer and why he does what he does, to show the passion the photographer has for his work on the left and a picture on the right.  On smaller screens the image moves above the text.\
+![welcome](assets/readme/page-elements/main-about.jpeg)
 
 #### Reviews
 
-A reveiws section demonstrates the experience of other clients to give the user confidence in the service on offer.
+A reveiws section demonstrates the experience of other clients to give the user confidence in the service on offer.\
+![reviews](assets/readme/page-elements/reviews.jpeg)
 
 #### Map
 
-The map, if it were for a real company, would show the user where the business is located.
+The map, if it were for a real company, would show the user where the business is located.\
+![map](assets/readme/page-elements/map.jpeg)
 
 #### Footer
 
-There is a basic footer section consisant across all pages which contains copyright information and external links to social media sites. It might be worth noting that the links currently go to social media home pages, if it were for a real company the links would go to their social media pages.
+There is a basic footer section consisant across all pages which contains copyright information and external links to social media sites. It might be worth noting that the links currently go to social media home pages, if it were for a real company the links would go to their social media pages.\
+![footer](assets/readme/page-elements/footer.jpeg)
 
 ### Gallery/Album:
 
-The gallery page is split into four album sub-pages, each showcasing a different event. Each album has nine photos and at the bottom is a button that takes the user back to the main gallery page.
+The gallery page is split into four album sub-pages, each showcasing a different event. Each album has nine photos and at the bottom is a button that takes the user back to the main gallery page.\
+![gallery](assets/readme/page-elements/gallery.jpeg)
+![album](assets/readme/page-elements/album.jpeg)
 
 ### Contact:
 
-The contact page is where the user can book the photographer or enquire about pricing and/or services. This consists of a form where the user inputs their name, contact details, the dates of their wedding, the venue of their wedding and has a text are box where they can send an optional message. This form is connected to an external API which send the details of the form to the photographer email address. There are also two buttons if the user wants to email the photographer which opens their email app and one for the phone number which when pressed opens a call prompt.
+The contact page is where the user can book the photographer or enquire about pricing and/or services. This consists of a form where the user inputs their name, contact details, the dates of their wedding, the venue of their wedding and has a text are box where they can send an optional message. This form is connected to an external API which send the details of the form to the photographer email address. There are also two buttons if the user wants to email the photographer which opens their email app and one for the phone number which when pressed opens a call prompt.\
+For samples of submitted for see [Form Screenshots](previews.md#form).\
+![contact](assets/readme/page-elements/contact.jpeg)
 
 ### Pop out Nav menu:
 
-On smaller screens the horizontal menu in the header is replaced by a hamburger icon which, when pressed, opens the navigation via a pop out panel.
+On smaller screens the horizontal menu in the header is replaced by a hamburger icon which, when pressed, opens the navigation via a pop out panel.\
+see [previews.md](previews.md#pop-out-side-navigation1)
 
 ### 404:
 
-I created a 404 page to inform the user of any errors with their request, this consists of an error message and two buttons at the bottom, one which takes the user back to the home page and one which opens the users email app shoukld they wish to report the problem.
+I created a 404 page to inform the user of any errors with their request, this consists of an error message and two buttons at the bottom, one which takes the user back to the home page and one which opens the users email app shoukld they wish to report the problem.\
+[404](previews.md#404-error)
 
 ### Future Features:
 

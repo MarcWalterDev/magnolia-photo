@@ -45,27 +45,27 @@ tested using [w3.org](https://validator.w3.org/) validator and [Lighthouse](http
 ### HTML Validation
 
 All tests for each page ran with no errors.\
-The validator returned a few warnings about using the h1 element.
- ![warning message](assets/readme/htmlvalidwarn.png)
- There was also "info" regarding the trailing slash on void elements, which was added automatically by the prettier extension in VS code.
- ![info message](assets/readme/htmlvalidinfo-slash.png)
+The validator returned a few warnings about using the h1 element.\
+ ![warning message](assets/readme/htmlvalidwarn.png)\
+ There was also "info" regarding the trailing slash on void elements, which was added automatically by the prettier extension in VS code.\
+ ![info message](assets/readme/htmlvalidinfo-slash.png)\
 
  ### CSS Validation
 
-Test ran with no errors or warnings.
+Test ran with no errors or warnings.\
 ![css validation](assets/readme/cssvalid.png)
 
  ### Performance
 
- Some performance scores on the image heavy pages were initially low so I optimised the image sizes and convert to the webp format.
- ![index](assets/readme/lighthouse/lh-index.png)
- ![gallery](assets/readme/lighthouse/lh-gallery.png)
- ![album 1](assets/readme/lighthouse/lh-album1.png)
- ![album 2](assets/readme/lighthouse/lh-album2.png)
- ![album 3](assets/readme/lighthouse/lh-album3.png)
- ![album 4](assets/readme/lighthouse/lh-album4.png)
- ![about](assets/readme/lighthouse/lh-about.png)
- ![contact](assets/readme/lighthouse/lh-contact.png)
+ Some performance scores on the image heavy pages were initially low so I optimised the image sizes and convert to the webp format.\
+ ![index](assets/readme/lighthouse/lh-index.png)\
+ ![gallery](assets/readme/lighthouse/lh-gallery.png)\
+ ![album 1](assets/readme/lighthouse/lh-album1.png)\
+ ![album 2](assets/readme/lighthouse/lh-album2.png)\
+ ![album 3](assets/readme/lighthouse/lh-album3.png)\
+ ![album 4](assets/readme/lighthouse/lh-album4.png)\
+ ![about](assets/readme/lighthouse/lh-about.png)\
+ ![contact](assets/readme/lighthouse/lh-contact.png)\
 
 ## Manual Testing
 
@@ -95,14 +95,14 @@ Test ran with no errors or warnings.
 #### Contact
 
 * Submit and Reset buttons work as intended.
-* Form data sent to email see [previews.md](previews.md)
+* Form data sent to email see [previews.md](previews.md#form)
 * Content appears as intended
 * Hover effects work as intended.
 
 ## Responsive
 
 Tested on iPhone 12 mini and iPad pro using google chrome.\
-For images see [previews.md](previews.md).
+For images see [previews.md](previews.md#site-preview).
 
 ## Cross Browser Support
 
