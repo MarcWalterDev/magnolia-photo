@@ -1,13 +1,3 @@
-Use:
-Images, links, formatting for presentation
-
-Needs:
-UX/UI section, links to wireframes, bugs and fixes, credits, deployment, testing (expectations, process, results, fixes)
-
-	LAYOUT IN LOGICAL ORDER
-
-
-
 # Magnolia Photography - Portfolio Project
 
 A website advertising a wedding photographer, where visitors come to help them decide who they want to capture the moment of their big day. This website is designed to be responsive across a range of devices and screen sizes and should be welcoming show good examples of the photographers work in order to gain new clients.
@@ -18,7 +8,7 @@ Please not this is not a real photographer but a project created for [The Code I
 
 The live site can be viewed on [here](https://) on github pages
 
-Contents section
+Contents
 
 _____________________________
 
@@ -68,27 +58,7 @@ I made a some design choices during the development process which deviate from t
 * I decided to use text instead of images on the contact form as I felt it needed some description.
 * I added some headings not included in the wireframes to further highlight the users location on the site.
 
-#### Index/home page
-
-![index page](assets/readme/index.png)
-
-#### Gallery and Album pages
-
-![gallery page](assets/readme/gallery.png)
-
-![album page](assets/readme/album.png)
-
-#### About Page
-
-![about me page](assets/readme/about.png)
-
-#### Contact/Booking page
-
-![booking page](assets/readme/contact.png)
-
-#### Pop out Side Navigation
-
-![side nav](assets/readme/sidenav.png)
+For images please see [previews.md](previews.md).
 _____________________________
 
 ## Features
@@ -119,23 +89,23 @@ The map, if it were for a real company, would show the user where the business i
 
 There is a basic footer section consisant across all pages which contains copyright information and external links to social media sites. It might be worth noting that the links currently go to social media home pages, if it were for a real company the links would go to their social media pages.
 
-### Gallery/Album
+### Gallery/Album:
 
 The gallery page is split into four album sub-pages, each showcasing a different event. Each album has nine photos and at the bottom is a button that takes the user back to the main gallery page.
 
-### Contact
+### Contact:
 
 The contact page is where the user can book the photographer or enquire about pricing and/or services. This consists of a form where the user inputs their name, contact details, the dates of their wedding, the venue of their wedding and has a text are box where they can send an optional message. This form is connected to an external API which send the details of the form to the photographer email address. There are also two buttons if the user wants to email the photographer which opens their email app and one for the phone number which when pressed opens a call prompt.
 
-### Pop out Nav menu
+### Pop out Nav menu:
 
 On smaller screens the horizontal menu in the header is replaced by a hamburger icon which, when pressed, opens the navigation via a pop out panel.
 
-### 404
+### 404:
 
 I created a 404 page to inform the user of any errors with their request, this consists of an error message and two buttons at the bottom, one which takes the user back to the home page and one which opens the users email app shoukld they wish to report the problem.
 
-### Future Features
+### Future Features:
 
 The photographs in the album page will open to give a full screen view of the photoraph with arrow buttons on either side so the user can scroll through the images. This will be shown on an overlay with album page dimmed in the background.
 _____________________________
@@ -181,6 +151,7 @@ _____________________________
 * [w3schools](https://www.w3schools.com/howto/howto_css_center_button.asp) - for their centering tutorial
 * [stackoverflow](https://stackoverflow.com/questions/9182978/semi-transparent-color-layer-over-background-image) - for the semi-transparent overlay using linear gradient.
 * [MDM](https://developer.mozilla.org/en-US/docs/Web/CSS/object-position) - for alignment of images in their div.
+* unknown - Used a turtorial for help with input box incosistancies relating to placeholder text, forgot to save and can't find the source.
 
 _____________________________
 

@@ -1,11 +1,3 @@
-
-	Expectations?
-	Browser compatibility
-	Lighthouse (performance testing)
-	Validators
-	Testing sources -	am I responsive
-				validation services
-	Site functionality
 ## User Story
 
 ### First time user
@@ -46,7 +38,79 @@
 * There is another link to the booking/contact page under the reviews section.
 * Across the top of each page is the fixed navigation bar with a link to the booking/contact page.
 
-##
+## Validation/Perfomance
+
+tested using [w3.org](https://validator.w3.org/) validator and [Lighthouse](https://chromewebstore.google.com/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk) for Chrome.
+
+### HTML Validation
+
+All tests for each page ran with no errors.\
+The validator returned a few warnings about using the h1 element.
+ ![warning message](assets/readme/htmlvalidwarn.png)
+ There was also "info" regarding the trailing slash on void elements, which was added automatically by the prettier extension in VS code.
+ ![info message](assets/readme/htmlvalidinfo-slash.png)
+
+ ### CSS Validation
+
+Test ran with no errors or warnings.
+![css validation](assets/readme/cssvalid.png)
+
+ ### Performance
+
+ Some performance scores on the image heavy pages were initially low so I optimised the image sizes and convert to the webp format.
+ ![index](assets/readme/lighthouse/lh-index.png)
+ ![gallery](assets/readme/lighthouse/lh-gallery.png)
+ ![album 1](assets/readme/lighthouse/lh-album1.png)
+ ![album 2](assets/readme/lighthouse/lh-album2.png)
+ ![album 3](assets/readme/lighthouse/lh-album3.png)
+ ![album 4](assets/readme/lighthouse/lh-album4.png)
+ ![about](assets/readme/lighthouse/lh-about.png)
+ ![contact](assets/readme/lighthouse/lh-contact.png)
+
+## Manual Testing
+
+### Features
+
+#### Index/header/footer
+
+* logo - takes user to index.html.
+* Navbar - Home, Gallery, About, Contact take user to respective pages.
+* book buttons - take user to contact.html.
+* Footer - Social media link - open in new tab on their respective pages.
+* Content appears as intended.
+* Hover effects work as intended.
+* On smaller screens hamburger icon opens nav menu.
+
+#### Gallery/Album
+
+* Each album cover takes user to correct album.
+* Back to Gallery - link takes user back to gallery page.
+* Content appears as intended.
+* Hover effects work as intended.
+
+#### About
+
+* Content appears as intended.
+
+#### Contact
+
+* Submit and Reset buttons work as intended.
+* Form data sent to email see [previews.md](previews.md)
+* Content appears as intended
+* Hover effects work as intended.
+
+## Responsive
+
+Tested on iPhone 12 mini and iPad pro using google chrome.\
+For images see [previews.md](previews.md).
+
+## Cross Browser Support
+
+Tested on Google Chrome, Opera, Firefox, Safari and Microsoft Edge.\
+
+* Content appears as intended.
+* Features work as expected.
+* Hover effects work as intended.
 
 ## Bugs
 
@@ -60,5 +124,3 @@ I concluded there was a problem with the JavaScript code I had used. After some 
 * When designing the index page the footer worked as expected and sat at the bottom of the page but on pages with less content the footer would sit undernieth the content not at the bottom. I found a tutorial (link in credits) that involved wrapping the page content in a container which allowed the footer to stay at the bottom of the page.
 
 * Also, when testing for smaller screens on my computer the smaller text in the footer looked fine but when testing on an actual mobile device the text became too small and unreadable, I solved this by stacking the footer elements upon one another allowing me to increase the font size.
-
-* I wanted the image links to grow a little bigger on hove but when running my code through the CSS validator it returned an error "Property scale doesn't exist : 1.03" even though it worked in practice
