@@ -179,6 +179,29 @@ _____________________________
 
 ## Deployment Instructions
 
+1. Navigate to the [repository](https://github.com/MarcWalterDev/magnolia-photo).
+2. Click setting at the top of the page.
+3. From the menu on the left click pages, this will open the GitHub pages settings.
+4. In the Build and Development section, under source, click the drop down menu and select "main".
+5. Click save.
+6. The page should refresh and a deploymeny link should appear.
+
+### Cloning a Repository
+
+1. Navigate to the [repository](https://github.com/MarcWalterDev/magnolia-photo)
+2. Click the green code button.
+3. Copy the https link.
+4. Open Git Bash and navigate to the directory where you would like to create the clone.
+5. type "git clone " and paste the https link you copied in step 3 and press enter to create the clone.
+
+### Creating a Fork
+
+1. Navigate to the [repository](https://github.com/MarcWalterDev/magnolia-photo).
+2. Click "Fork" in the top right corner.
+3. A "create new fork" page will open. You can choose a name for the new for or keep the open provided and add a description.
+4. Either check the box to copy main branch or uncheck to copy all branches.
+5. Click the "create fork" button. A new repository should appear in your GitHub.
+
 _____________________________
 
 ## Credits
@@ -195,6 +218,7 @@ _____________________________
 * [stackoverflow](https://stackoverflow.com/questions/9182978/semi-transparent-color-layer-over-background-image) - for the semi-transparent overlay using linear gradient.
 * [MDM](https://developer.mozilla.org/en-US/docs/Web/CSS/object-position) - for alignment of images in their div.
 * unknown - Used a turtorial for help with input box incosistancies relating to placeholder text, forgot to save and can't find the source.
+* Code institute student support for the scale property help.
 
 _____________________________
 
@@ -203,7 +227,7 @@ _____________________________
 I have learn a lot about organisation and design during this project. Some key take aways:
 * use ID more - This could have cleaned up my CSS a lot, using class names meant some lengthy targeting of elements. I will do some more research about when it is better to ID vs class.
 * README - I should have written the README as I went along, it was quite a daunting task after just making a few notes and doing the whole write up at the end.
-* Mobile first desgin - I originally started mobile first but decided to switch to desktop first design as I felt it made more sense but I think designing mobile first would greatly reduce the amount of media queries needed for different screen sizesand save a lot of time.
+* Mobile first desgin - I originally started mobile first but decided to switch to desktop first design as I felt it made more sense but I think designing mobile first would greatly reduce the amount of media queries needed for different screen sizes and save a lot of time.
 * Organisation - Being more methodical would have saved a lot of going back and forth between pages.
 
 On the whole I have really enjoyed the process. Even though some of my methods caused some undue stress it has helped me learn what and what not to do in the future.

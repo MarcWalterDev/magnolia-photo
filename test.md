@@ -36,7 +36,7 @@
 
 * The hero section contains a link to the booking/contact page.
 * There is another link to the booking/contact page under the reviews section.
-* Across the top of each page is the fixed navigation bar with a link to the booking/contact page.
+* Across the top of each page is the fixed navigation bar with a link to the booking/contact page.\
 
 ## Validation/Perfomance
 
@@ -104,6 +104,8 @@ Test ran with no errors or warnings.\
 Tested on iPhone 12 mini and iPad pro using google chrome.\
 For images see [previews.md](previews.md#site-preview).
 
+[back to README.md - responsive design](README.md#responsive-design)
+
 ## Cross Browser Support
 
 Tested on Google Chrome, Opera, Firefox, Safari and Microsoft Edge.\
@@ -124,3 +126,7 @@ I concluded there was a problem with the JavaScript code I had used. After some 
 * When designing the index page the footer worked as expected and sat at the bottom of the page but on pages with less content the footer would sit undernieth the content not at the bottom. I found a tutorial (link in credits) that involved wrapping the page content in a container which allowed the footer to stay at the bottom of the page.
 
 * Also, when testing for smaller screens on my computer the smaller text in the footer looked fine but when testing on an actual mobile device the text became too small and unreadable, I solved this by stacking the footer elements upon one another allowing me to increase the font size.
+
+* When running CSS through the validator it returned an error stating the scale property I had used on a hover effect in the gallery page didn't exist. Although the code worked I changed it for the "transform: scale()" property after advice from Code Institute student support.\
+
+[back to README.md](README.md#testing)

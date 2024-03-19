@@ -184,7 +184,7 @@ footer {
 
 .hero-img {
 	position: relative;
-	background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+	background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), /*linear gradient idea from tutorial, see README credits*/
 		url(../images/rings.webp);
 	height: 100vh;
 	width: 100%;
@@ -197,7 +197,7 @@ footer {
 	position: absolute;
 	top: 65%;
 	left: 50%;
-	transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%); /* centering technique from tutorial, see README credits */
 	text-align: center;
 	letter-spacing: 3px;
 }
@@ -338,7 +338,7 @@ footer {
 }
 
 .album img:hover {
-	scale: 1.03;
+	transform: scale(1.03); /* student support help */
 	box-shadow: 1px 1px 5px #676869;
 }
 
@@ -434,13 +434,9 @@ footer {
 	border: 0.9px solid #000;
 }
 
-::placeholder {
+.form-container input::placeholder { /* cross broser property from tutorial, see README credits */
 	color: #aaaaaa;
 	opacity: 1;
-}
-
-::-ms-input-placeholder {
-	color: #aaaaaa;
 }
 
 .form-container textarea {
